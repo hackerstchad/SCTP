@@ -1,0 +1,12 @@
+# SCTP_TECHNOLOGY - Dépendances
+# Cette application utilise principalement la bibliothèque standard de Python.
+# Aucune dépendance externe obligatoire n'est requise pour l'interface Tkinter.
+
+# Optionnel : pour une visualisation 3D plus riche (non utilisée par défaut)
+# matplotlib>=3.7.0
+# numpy>=1.24.0
+
+# Optionnel : tests et qualité du code
+# pytest>=7.4.0
+# flake8>=6.1.0
+# black>=23.7.0
