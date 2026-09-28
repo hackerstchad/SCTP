@@ -1,19 +1,15 @@
 # SCTP_TECHNOLOGY
 
-## 📡 Présentation
+<img width="640" height="480" alt="images" src="https://github.com/user-attachments/assets/9d32a745-7f58-49e0-9b13-9f607ae96792" />
+
+
+## Présentation
 
 **SCTP_TECHNOLOGY** est une application éducative avancée écrite en Python (interface [`tkinter`](sctp_technology.py:1)) dédiée au protocole **SCTP (Stream Control Transmission Protocol)** définie dans la RFC 4960.
 
-Elle propose :
-- Un simulateur de connexion SCTP multihoming/multi-streaming
-- Une visualisation 3D interactive des associations, streams et TSN
-- Un éditeur de paquets SCTP avec décodage des chunks
-- Des outils de calcul (CRC32c, vtag, verification tag)
-- Un README avancé avec ressources, liens officiels et commandes
-
 ---
 
-## 🚀 Démarrage rapide
+## Démarrage rapide
 
 ```bash
 # 1. Cloner ou créer le dossier
@@ -28,7 +24,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📦 Fichiers
+##  Fichiers
 
 | Fichier | Description |
 |---------|-------------|
@@ -38,7 +34,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Qu'est-ce que SCTP ?
+##  Qu'est-ce que SCTP ?
 
 SCTP est un protocole de transport de couche 4 (comme TCP et UDP) standardisé par l'IETF dans la [RFC 4960](https://datatracker.ietf.org/doc/html/rfc4960).
 
@@ -66,7 +62,7 @@ SCTP est un protocole de transport de couche 4 (comme TCP et UDP) standardisé p
 
 ---
 
-## 🌐 Ressources et liens officiels
+##  Ressources et liens officiels
 
 ### RFCs
 
@@ -131,7 +127,7 @@ L'application [`sctp_technology.py`](sctp_technology.py) est structurée autour 
 
 ---
 
-## ⌨️ Commandes et utilisation
+##  Commandes et utilisation
 
 ### Lancer l'application
 
@@ -151,7 +147,7 @@ python sctp_technology.py
 
 ---
 
-## 📊 Exemple de simulation
+##  Exemple de simulation
 
 1. Ouvrir l'onglet **Simulateur**.
 2. Entrer les IP locales et distantes.
@@ -161,7 +157,7 @@ python sctp_technology.py
 
 ---
 
-## 🧪 Tests
+##  Tests
 
 ```bash
 # Vérifier la syntaxe
@@ -171,15 +167,7 @@ python -m py_compile sctp_technology.py
 python sctp_technology.py
 ```
 
----
 
-## ⚠️ Notes
-
-- Cette application est **purement éducative** ; elle ne crée pas de vraies sockets SCTP sauf si le module `sctp` est installé.
-- La visualisation 3D est simulée avec un Canvas 2D projeté en perspective ; aucune bibliothèque 3D externe n'est requise.
-
----
-
-## 📜 Licence
+##  Licence
 
 Projet éducatif. Libre à usage personnel et pédagogique.
